@@ -17,6 +17,7 @@ struct Index {
         })
     }
     .padding({
+      top: 20,
       right: 20,
       bottom: 20,
       left: 20
@@ -24,6 +25,7 @@ struct Index {
     .height('100%')
     .width('100%')
     .backgroundImage('images/caseday02/1/bg.png', ImageRepeat.NoRepeat)
+    .backgroundImageSize(ImageSize.Cover)
     .expandSafeArea()
   }
 }
