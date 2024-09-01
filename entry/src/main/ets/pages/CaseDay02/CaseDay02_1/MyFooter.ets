@@ -13,7 +13,7 @@ export default struct MyFooter {
           }
           .alignItems(HorizontalAlign.Start)
 
-          Image($r('app.media.soul'))
+          Image('images/caseday02/1/soul.png')
             .width(46)
         }
         .padding(10)
@@ -30,7 +30,7 @@ export default struct MyFooter {
           }
           .alignItems(HorizontalAlign.Start)
 
-          Image($r('app.media.interesting'))
+          Image('images/caseday02/1/interesting.png')
             .width(46)
         }
         .padding(10)

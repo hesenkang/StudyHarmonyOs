@@ -21,7 +21,7 @@ struct CaseDay01 {
             .fontSize(18)
             .fontWeight(FontWeight.Bold)
             .fontColor('#EF4F40')
-          Image($r('app.media.triangle'))
+          Image('images/caseday01/2/triangle.svg')
             .width(12)
             .fillColor('#EF4F40')
         }

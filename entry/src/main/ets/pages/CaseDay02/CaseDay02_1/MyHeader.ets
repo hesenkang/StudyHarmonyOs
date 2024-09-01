@@ -4,7 +4,7 @@ export default struct MyHeader {
     Row() {
       Button() {
         Row() {
-          Image($r('app.media.map'))
+          Image('images/caseday02/1/map.svg')
             .width(12)
           Text('西安市')
             .fontSize(12)
@@ -38,7 +38,7 @@ export default struct MyHeader {
           .fontColor('#333333')
       }
 
-      Image($r('app.media.list'))
+      Image('images/caseday02/1/list.svg')
         .width(16)
         .fillColor('#333333')
     }

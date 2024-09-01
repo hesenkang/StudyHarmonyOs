@@ -3,25 +3,25 @@ export default struct MyMain {
   build() {
     Stack({ alignContent: Alignment.Bottom }) {
       Swiper() {
-        Image($r('app.media.swiper1'))
+        Image('images/caseday02/1/swiper1.png')
           .size({
             width: '100%',
             height: '100%'
           })
 
-        Image($r('app.media.swiper2'))
+        Image('images/caseday02/1/swiper2.svg')
           .size({
             width: '100%',
             height: '100%'
           })
 
-        Image($r('app.media.swiper3'))
+        Image('images/caseday02/1/swiper3.svg')
           .size({
             width: '100%',
             height: '100%'
           })
 
-        Image($r('app.media.swiper4'))
+        Image('images/caseday02/1/swiper4.svg')
           .size({
             width: '100%',
             height: '100%'
@@ -49,11 +49,11 @@ export default struct MyMain {
           Text('3.4km·互联网·巨蟹座')
             .fontColor(Color.White)
           Row({ space: 5 }) {
-            Image($r('app.media.play'))
+            Image('images/caseday02/1/play.svg')
               .width(14)
-            Image($r('app.media.fresh'))
+            Image('images/caseday02/1/fresh.svg')
               .width(14)
-            Image($r('app.media.fresh'))
+            Image('images/caseday02/1/fresh.svg')
               .width(14)
             Text('6\'\'')
               .fontColor(Color.White)
@@ -61,7 +61,7 @@ export default struct MyMain {
         }
         .alignItems(HorizontalAlign.Start)
 
-        Image($r('app.media.love'))
+        Image('images/caseday02/1/love.svg')
           .padding(11)
           .width(44)
           .borderRadius('50%')

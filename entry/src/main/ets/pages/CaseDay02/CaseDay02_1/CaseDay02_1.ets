@@ -23,7 +23,7 @@ struct Index {
     })
     .height('100%')
     .width('100%')
-    .backgroundImage($r('app.media.bg'), ImageRepeat.NoRepeat)
+    .backgroundImage('images/caseday02/1/bg.png', ImageRepeat.NoRepeat)
     .expandSafeArea()
   }
 }
