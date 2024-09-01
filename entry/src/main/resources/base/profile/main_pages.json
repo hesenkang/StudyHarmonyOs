@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/Index",
-    "pages/CaseDay01/CaseDay02"
+    "pages/CaseDay01/CaseDay01_2",
+    "pages/CaseDay02/CaseDay02_1/CaseDay02_1"
   ]
 }
